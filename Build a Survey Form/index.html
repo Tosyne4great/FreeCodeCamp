@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link type="text/css" rel="stylesheet" href="style.css">
+	<title>Document</title>
+</head>
+
+<body>
+	<div class="main">
+		<div class="title-wrap">
+			<h1 class="title">Survey Form</h1>
+		</div>
+		<div class="form-wrap">
+			<div class="flex-wrap">
+				<form class="survey-form">
+					<table cellspacing="40px">
+						<caption><b>Let us know how we can improve freeCodeCamp</b></caption>
+						<tr>
+							<th class="no-pad"><label for="name" id="name-label"><em>*</em>Name:</label></th>
+							<th><input type="text" id="name" placeholder="Enter your name" required></th>
+						</tr>
+						<tr>
+							<th class="no-pad"><label for="email" id="email-label"><em>*</em>E-mail:</label></th>
+							<th><input type="email" id="email" placeholder="Enter your e-mail" required></th>
+						</tr>
+						<tr>
+							<th class="no-pad"><label for="number" id="number-label"><em>*</em>Phone number:</label></th>
+							<th><input type="number" id="number" placeholder="Enter your number" min="0" max="" required></th>
+						</tr>
+						<tr>
+							<th class="no-pad">Choose some monster features:</th>
+							<th>
+								<fieldset>
+									<input type="checkbox" id="scales" name="feature" value="scales" checked />
+									<label for="scales">Scales</label><br>
+									<input type="checkbox" id="horns" name="feature" value="horns" />
+									<label for="horns">Horns</label><br>
+									<input type="checkbox" id="claws" name="feature" value="claws" />
+									<label for="claws">Claws</label><br>
+								</fieldset>
+							</th>
+						</tr>
+						<tr>
+
+							<th class="no-pad">Chose your hero:</th>
+							<th>
+								<fieldset> <select class="dropdown">
+  												<option>Superman</option>
+  												<option>Wonderwoman</option>
+  												<option>Spiderman</option>
+											</select>
+								</fieldset>
+							</th>
+						</tr>
+						<tr>
+							<th class="no-pad">Select any item:</th>
+							<th class="radio">
+								<fieldset>
+									<input name="dzen" type="radio" value="1" checked>
+									<label for="dzen">Dzen</label><br>
+									<input name="nodzen" type="radio" value="2">
+									<label for="nodzen">No Dzen</label><br>
+								</fieldset>
+							</th>
+						</tr>
+						<tr>
+							<th><label for="textarea">Any Comments or Suggestions?</label></th>
+							<th><textarea name="textarea" placeholder="Enter your comment here.."></textarea></th>
+						</tr>
+					</table>
+					<button class="submit">Submit</button>
+				</form>
+
+			</div>
+		</div>
+
+
+
+		<!--form-wrap-END-->
+	</div>
+	<!--main-END-->
+</body>
+
+</html>
