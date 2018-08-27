@@ -64,9 +64,9 @@ display: flex;
 }
 @media  (max-width:600px){
 	.nav-bar {flex-direction: column;}
-}
-@media  (max-width:600px){
+
 	.link-wrp {flex-direction: column;}
+	.pricing {flex-direction: column;}
 }
 .form {
 	text-align: center;
@@ -97,16 +97,65 @@ display: flex;
 	margin-right: auto;
 	max-width: 1400px;
 	margin-top: 40px;
+	font-size: 18px;
 }
-.icon-container{
+.favicon-item {
 	display: flex;
-	align-items: baseline;
+	flex-direction:row;
+	margin: 30px;
 }
-.sha{
-	display: flex;
-	align-items: baseline;
+.icon{
+	width: 70px;
 }
-.text-container{
+.text-cont {
 	display: flex;
 	flex-direction: column;
+	max-width: 700px;
+	margin-left: 60px;
+}
+.title h1 {
+	font-size: 30px;
+}
+.how-it-works {
+	display: flex;
+	max-width: 1400px;
+	justify-content: center;
+	margin: 50px auto ;
+}
+.pricing {
+	display: flex;
+	max-width: 1400px;
+	justify-content: center;
+	margin: 50px auto ;
+}
+.pricing-item {
+	border: 1px solid black;
+	height: 250px;
+	width: 300px;
+	text-align: center;
+	margin: 40px;
+}
+.pricing-item p {
+	font-size: 20px;
+	font-weight: bold;
+	padding-top: 5px;
+}
+ol{
+	margin-top: 20px;
+}
+ol li{
+	list-style: none;
+	text-align: center;
+	margin-top: 10px;
+}
+.pric-title {
+	background-color: lightgray;
+	text-align: center;
+	padding: 20px;
+}
+.select {
+	border: none;
+	background-color: yellow;
+	padding: 10px;
+	margin-top: 10px;
 }
